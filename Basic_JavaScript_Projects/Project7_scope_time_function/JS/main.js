@@ -1,9 +1,9 @@
-var X = 10; //create a glocal variable
+var x = 10; //create a glocal variable
 
 function add() //function that adds the two variables
 {
     var y = 15; //create a local variable
-    document.write(x + y); //add the two variables x being wrong add display result
+    document.write(x + y); //add the two variables and display result
 }
 
 add(); //call the function
