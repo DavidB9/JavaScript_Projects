@@ -20,5 +20,9 @@ function precisionTest() //function to handle toPrecision test
     document.getElementById("testPrecision").innerHTML = test.toPrecision(10); //display the variable to the precision of ten places on the p element with the id testPrecision
 }
 
-x = 50; //create a variable and store a number
-document.writeln(x.toString()); //write the variable to doc while changing it to a string
+function testToString() //function to handle toString test
+{
+    x = 50; //create a variable and store a number
+    document.getElementById("test").innerHTML = x.toString();
+}
+
